@@ -7,5 +7,9 @@ func main() {
 	fmt.Println("enter first name :")
 	fmt.Scanln(&fName)
 
-	fmt.Println("fullname is " + fName)
+	var lName string
+	fmt.Println("enter last name :")
+	fmt.Scanln(&lName)
+
+	fmt.Println("fullname is " + fName + " " + lName)
 }
