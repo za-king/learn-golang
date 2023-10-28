@@ -21,5 +21,7 @@ func (person Person) getName() string {
 func main() {
 
 	person1 := Person{Name: "andi"}
+	person2 := Person{Name: "ahmad"}
 	sayHello(person1)
+	sayHello(person2)
 }
